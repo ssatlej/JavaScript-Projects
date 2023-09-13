@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('../image/scenary.jpg') center center;
+    background-size: cover;
+} 
+
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.title {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col{
+    
+    margin: 50px auto;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.col div {
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.8);
+    border-color: transparent;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.colon{
+    text-align: justify;
+    font-size: 30px;
+}
+
